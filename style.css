@@ -232,6 +232,9 @@ Responsive Codes
   .grid-two-column {
     grid-template-columns: 1fr;
   }
+   .about-heading .grid-two-column{
+    grid-template-columns: 1fr;
+  }
   .section-symp .grid-symp {
     grid-template-columns: 1fr;
     /* grid-auto-rows: auto; */
@@ -314,7 +317,7 @@ Responsive Codes
     align-items: center;
   }
   .preimg {
-    display: grid;
+    
     grid-template-columns: 1fr;
   }
   .hero-image .hero-img-overlay {
@@ -324,8 +327,8 @@ Responsive Codes
   }
 
   .normal-img img {
-    height: 22rem;
-    width: 25rem;
+    height: 20rem;
+    width: 22rem;
   }
 
   .ref-img {
@@ -337,7 +340,7 @@ Responsive Codes
     justify-content: center;
   }
   .ref-img img {
-    width: 33rem;
+    width: 28rem;
   }
 
   .about-heading {
@@ -382,8 +385,8 @@ Responsive Codes
     left: 0;
   }
   .section {
-    padding-left: 8rem;
-    padding-right: 8rem;
+    padding-left: 4rem;
+    padding-right: 4rem;
   }
   .enroll-img {
     display: flex;
@@ -392,7 +395,7 @@ Responsive Codes
     align-items: center;
   }
   .enroll-img img {
-    width: 35rem;
+    width: 28rem;
   }
   .normal-img {
     height: auto;
@@ -418,7 +421,7 @@ Responsive Codes
     justify-content: center;
   }
   .ref-img img {
-    width: 33rem;
+    width: 25rem;
   }
   .preimg {
     display: grid;
@@ -600,8 +603,7 @@ Responsive Codes
 .normal-section {
   margin-top: 9rem;
   padding: 2rem;
-  box-shadow: 0 0 5rem 0 rgba(0, 0, 0, 0.3);
-  border-radius: 15px;
+ 
 }
 .para-normal {
   font-size: 1.8rem;
@@ -640,8 +642,6 @@ Responsive Codes
   padding: 2rem;
   /* border: 5px solid #060b2b; */
   background-color: #202666;
-  border-radius: 10px;
-  box-shadow: 0 0 5rem 0 rgba(0, 0, 0, 0.2);
 }
 .para-link {
   padding: 1rem;
