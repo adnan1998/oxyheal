@@ -70,12 +70,12 @@ h4 {
   position: relative;
   list-style: none;
 }
-.sticky {
+/* .sticky {
   position: fixed;
   left: 0;
   top: 0;
   width: 100%;
-}
+} */
 .navbar-list {
   display: flex;
   justify-content: center;
@@ -126,11 +126,9 @@ h4 {
   display: none;
 }
 
-
 /* ===========================================
 Hero and Service Section Start
 ======================================= */
-
 
 .section {
   padding: 13rem;
@@ -166,7 +164,7 @@ Hero and Service Section Start
   font-size: 3.4rem;
   font-weight: 700;
 }
- 
+
 .section-hero .para {
   margin-top: 2rem;
   margin-bottom: 3.2rem;
@@ -180,7 +178,7 @@ Hero and Service Section Start
 .hero-image img {
   width: 90%;
   z-index: -2;
-} 
+}
 
 .hero-img-overlay {
   position: absolute;
@@ -211,7 +209,6 @@ Hero and Service Section Start
 Responsive Codes 
 ======================================= */
 
-
 @media (max-width: 1250px) {
   .container {
     padding: 0 1rem;
@@ -221,18 +218,17 @@ Responsive Codes
   }
   .section-symp .grid-symp {
     grid-template-columns: 1fr 1fr;
-    
   }
 }
 /* 980px  */
 @media (max-width: 62em) {
-    .container {
+  .container {
     max-width: 96rem;
   }
   .grid-two-column {
     grid-template-columns: 1fr;
   }
-   .about-heading .grid-two-column{
+  .about-heading .grid-two-column {
     grid-template-columns: 1fr;
   }
   .section-symp .grid-symp {
@@ -247,7 +243,6 @@ Responsive Codes
   .mobile-navbar-btn {
     display: block;
     z-index: 999;
-   
   }
 
   .header {
@@ -255,8 +250,7 @@ Responsive Codes
   }
 
   .header .logo {
-      width: 8rem;
-
+    width: 8rem;
   }
 
   .navbar {
@@ -285,7 +279,6 @@ Responsive Codes
     flex-direction: column;
     align-items: center;
   }
-  
 
   .active .navbar {
     transform: translateX(0);
@@ -301,7 +294,7 @@ Responsive Codes
   .active .mobile-navbar-btn .mobile-nav-icon[name="menu-outline"] {
     display: none;
   }
-.section::before {
+  .section::before {
     height: 30%;
   }
   .hero-image {
@@ -317,7 +310,6 @@ Responsive Codes
     align-items: center;
   }
   .preimg {
-    
     grid-template-columns: 1fr;
   }
   .hero-image .hero-img-overlay {
@@ -342,13 +334,18 @@ Responsive Codes
   .ref-img img {
     width: 28rem;
   }
+  .symp-img .title{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    
+  }
 
   .about-heading {
     display: flex;
     flex-direction: column;
     align-items: flex-start;
   }
-
 }
 
 /* Below 768px  */
@@ -428,12 +425,12 @@ Responsive Codes
     grid-template-columns: 1fr;
   }
 }
-/* .sticky {
+.sticky {
   position: fixed;
   left: 0;
   top: 0;
   width: 100%;
-} */
+}
 /* .section-about{
     position: relative;
 } */
@@ -603,7 +600,6 @@ Responsive Codes
 .normal-section {
   margin-top: 9rem;
   padding: 2rem;
- 
 }
 .para-normal {
   font-size: 1.8rem;
